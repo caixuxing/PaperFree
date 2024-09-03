@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Trasen.PaperFree.Host.props" />
+</Project>

@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MedicalRecord\IgnoreItme\**" />
+    <EmbeddedResource Remove="MedicalRecord\IgnoreItme\**" />
+    <None Remove="MedicalRecord\IgnoreItme\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.24" />
+    <PackageReference Include="MimeKit" Version="4.3.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.111" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trasen.PaperFree.Domain.Shared\Trasen.PaperFree.Domain.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ArchiveRecord\Agg\" />
+    <Folder Include="IgnoreItme\Agg\" />
+    <Folder Include="PatientDetails\Agg\" />
+    <Folder Include="ProcessRecord\Agg\" />
+    <Folder Include="RecallRecord\Agg\" />
+  </ItemGroup>
+
+</Project>

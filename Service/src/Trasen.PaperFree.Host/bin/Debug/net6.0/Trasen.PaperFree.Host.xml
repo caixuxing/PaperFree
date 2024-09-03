@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Trasen.PaperFree.Host</name>
+    </assembly>
+    <members>
+        <member name="T:Trasen.PaperFree.Host.Controllers.AuthController">
+            <summary>
+            授权
+            </summary>
+        </member>
+        <member name="F:Trasen.PaperFree.Host.Controllers.AuthController.mediator">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.AuthController.#ctor(MediatR.IMediator)">
+             <summary>
+            
+             </summary>
+             <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.AuthController.Login(Trasen.PaperFree.Application.SystemBasicInfo.Query.LoginQry)">
+            <summary>
+            登录
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.Home.HomeController">
+            <summary>
+            首页
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.Home.HomeController.#ctor(MediatR.IMediator)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.Home.HomeController.HomeTotal(Trasen.PaperFree.Application.Home.Query.FindTotalQueryQry)">
+             <summary>
+            头部数据统计结果集
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.Home.HomeController.HomeCaseload(Trasen.PaperFree.Application.Home.Query.FindCaseloadQry)">
+            <summary>
+            工作量统计
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.Home.HomeController.HomeMedicalRecordStat(Trasen.PaperFree.Application.Home.Query.FindMedicalRecordStatsQry)">
+            <summary>
+            病案统计统计
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.MedicalRecord.AnNotationController">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.AnNotationController.#ctor(MediatR.IMediator)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.AnNotationController.CreateAnNotation(Trasen.PaperFree.Application.MedicalRecord.Commands.AnNotation.CreateAnnotationTableCmd)">
+             <summary>
+            创建批注
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.AnNotationController.UpdateAnNotation(System.String,Trasen.PaperFree.Application.MedicalRecord.Commands.AnNotation.ModifyAnNotationTableCmd)">
+            <summary>
+            修改批注内容
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.AnNotationController.DeleteAnNotation(System.String)">
+             <summary>
+            批注仓库
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.AnNotationController.FindAnNotation(System.String)">
+             <summary>
+            按ID查找批注信息
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController">
+            <summary>
+            归档申请流程
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController.#ctor(MediatR.IMediator)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController.ArchiveApply(System.String)">
+            <summary>
+            病历归档申请
+            </summary>
+            <param name="id">档案号ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController.DeleteArchiveApply(System.String)">
+            <summary>
+            删除归档申请
+            </summary>
+            <param name="id">归档申请ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController.ArchiveApplyPageList(System.Int32,System.Int32,Trasen.PaperFree.Application.MedicalRecord.Query.Archive.FindArchiveApplyPageListQry)">
+            <summary>
+            归档申请管理列表
+            </summary>
+            <param name="pageIndex">分页索引</param>
+            <param name="pageSize">分页大小</param>
+            <param name="qry">归档申请管理列表检索参入条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController.ReadApproval(System.String)">
+            <summary>
+            审批详情信息
+            </summary>
+            <param name="id">归档申请ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController.Approval(System.String,Trasen.PaperFree.Application.MedicalRecord.Commands.Archive.ApprovalArchiveCmd)">
+            <summary>
+            审批
+            </summary>
+            <param name="id">病历归档申请ID</param>
+            <param name="request">归档审批指令</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController.Approval(System.String)">
+            <summary>
+            审批时间轴
+            </summary>
+            <param name="id">归档申请ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.ArchiveApplyController.EventDirectionBranchDroupList">
+            <summary>
+            流程申请状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController">
+            <summary>
+            出院病历列表和详情
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.#ctor(MediatR.IMediator,Trasen.PaperFree.Domain.SeedWork.IMinioFileService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mediator"></param>
+            <param name="miniofileservice"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.OutPatientInfoList(System.Int32,System.Int32,Trasen.PaperFree.Application.MedicalRecord.Query.OutpatientInfo.FindOutpatientInfoPageListQry)">
+            <summary>
+            出院病人列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.InPatientInfoList(System.Int32,System.Int32,Trasen.PaperFree.Application.MedicalRecord.Query.OutpatientInfo.FindInpatientInfoPageListQry)">
+            <summary>
+            在院病人列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.OutpatientEmergencyPageList(System.Int32,System.Int32,Trasen.PaperFree.Application.MedicalRecord.Query.OutpatientInfo.FindOutpatientEmergencyPageListQry)">
+            <summary>
+            门急诊病人列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.DeleteBaseWatermark(System.String)">
+            <summary>
+            高拍文件删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.FindBaseWatermarkById(Trasen.PaperFree.Application.MedicalRecord.Query.PatientDetails.FileStreamsByIdQry)">
+            <summary>
+            /文件流返回
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.FileStreamsAdd(Trasen.PaperFree.Application.MedicalRecord.Commands.PatientDetails.CreateFilesOtherCmd)">
+             <summary>
+            文件保存
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.FindMeumTreeArchiveId(Trasen.PaperFree.Application.MedicalRecord.Query.PatientDetails.FindPatientDetailsQry)">
+            <summary>
+            根据档案号返回患者目录
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.ModifyFileName(Trasen.PaperFree.Application.MedicalRecord.Commands.PatientDetails.ModifyFileNameCmd)">
+            <summary>
+            修改文件名称
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.CreatePatientAdd(Trasen.PaperFree.Application.MedicalRecord.Commands.OutpatientInfo.CreateOutpatientInfoTableCmd)">
+             <summary>
+            新增住院病人信息
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.CreateIgnoreItmtAdd(Trasen.PaperFree.Application.MedicalRecord.Commands.IgnoreItme.CreateIgnoreItmeCmd)">
+             <summary>
+            新增忽略文件信息信息
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.DeleteIgnoreItm(System.String)">
+            <summary>
+            删除忽略文件信息信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.CreateOutpatientEmergencyAdd(Trasen.PaperFree.Application.MedicalRecord.Commands.OutpatientInfo.CreateOutpatientEmergencyCmd)">
+             <summary>
+            新增门急诊病人信息
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.PatientListController.UpdateOutpatientEmergencyAdd(Trasen.PaperFree.Application.MedicalRecord.Commands.OutpatientInfo.ModifyOutpatientEmergencyCmd)">
+             <summary>
+            修改门急诊病人信息
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.MedicalRecord.RecallApplyController">
+            <summary>
+            召回申请流程
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.RecallApplyController.#ctor(MediatR.IMediator)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.RecallApplyController.ArchiveApply(System.String)">
+            <summary>
+            病历召回申请
+            </summary>
+            <param name="id">档案号id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.RecallApplyController.DeleteArchiveApply(System.String)">
+            <summary>
+            删除召回申请
+            </summary>
+            <param name="id">召回申请ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.RecallApplyController.ArchiveApplyPageList(System.Int32,System.Int32,Trasen.PaperFree.Application.MedicalRecord.Query.Recall.FindRecallApplyPageListQry)">
+            <summary>
+            召回申请管理列表
+            </summary>
+            <param name="pageIndex">分页索引</param>
+            <param name="pageSize">分页大小</param>
+            <param name="qry">列表检索入参</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.RecallApplyController.Approval(System.String,Trasen.PaperFree.Application.MedicalRecord.Commands.Recall.ApprovalRecallCmd)">
+            <summary>
+            召回审批
+            </summary>
+            <param name="id">召回申请ID</param>
+            <param name="request">审批入参</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.RecallApplyController.ReadApproval(System.String)">
+            <summary>
+            召回审批详情信息
+            </summary>
+            <param name="id">召回申请ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.MedicalRecord.RecallApplyController.Approval(System.String)">
+            <summary>
+            召回审批时间轴
+            </summary>
+            <param name="id">召回申请ID</param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController">
+            <summary>
+            系统基础信息
+            </summary>
+        </member>
+        <member name="F:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController._mediator">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.#ctor(MediatR.IMediator,Microsoft.Extensions.Logging.ILogger{Trasen.PaperFree.Host.Controllers.AuthController},Microsoft.AspNetCore.SignalR.IHubContext{Trasen.PaperFree.Infrastructure.SignalR.PersonHub},Trasen.PaperFree.Domain.SeedWork.IRedisService,Trasen.PaperFree.Domain.SeedWork.ICurrentUser)">
+            <summary>
+            注入构建
+            </summary>
+            <param name="mediator"></param>
+            <param name="logger"></param>
+            <param name="hubContext"></param>
+            <param name="redisService"></param>
+            <param name="user"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.GetUserMenuInfo(System.Threading.CancellationToken)">
+            <summary>
+            获取用户菜单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.GetOrg(System.Threading.CancellationToken)">
+            <summary>
+            获取机构
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.GetOrgDepartment(System.Threading.CancellationToken)">
+            <summary>
+            获取科室
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.GetSysParameterListByPage(System.Threading.CancellationToken)">
+            <summary>
+            获取系统参数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.GetPersonalParameterListByPage(System.Threading.CancellationToken)">
+            <summary>
+            获取个人参数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.GetOrgParameterListByPage(System.Threading.CancellationToken)">
+            <summary>
+            获取机构参数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.GetOrgDeptMemberPageList(System.Threading.CancellationToken)">
+            <summary>
+            获取单个人员与科室关系表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfoController.PostAsync(System.String)">
+             <summary>
+             定义一个后台作业【任务】
+            
+             假如我们登录后> 有件非常耗时的操作（3分钟才能完成）
+             如果同步执行 影响登录功能体验
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ArchiverMeumControllers">
+            <summary>
+            归档菜单目录列表
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ArchiverMeumControllers.#ctor(MediatR.IMediator)">
+            <summary>
+            按机构加载结构目录树
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ArchiverMeumControllers.ArchiverMeumList(Trasen.PaperFree.Application.SystemBasicInfo.Query.ArchiverMeumQry.FindArchiverMeumListQry)">
+            <summary>
+            归档菜单目录列表
+            </summary>
+            <param name="qry"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ArchiverMeumControllers.CreateBaseWatermar(Trasen.PaperFree.Application.SystemBasicInfo.Commands.ArchiverMeumCmd.CreateArchiverMeumCmd)">
+            <summary>
+            创建归档菜单目录表数据
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ArchiverMeumControllers.UpdateBaseWatermark(System.String,Trasen.PaperFree.Application.SystemBasicInfo.Commands.ArchiverMeumCmd.ModifyArchiverMeumCmd)">
+            <summary>
+            修改归档菜单目录表数据
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ArchiverMeumControllers.DeleteBaseWatermark(System.String)">
+            <summary>
+            删除归档菜单目录表数据
+            </summary>
+            <param name="id">归档菜单目录数据ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ArchiverMeumControllers.FindBaseWatermarkById(System.String)">
+            <summary>
+            按ID单条件查询
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BaseBorrowModeControllers">
+            <summary>
+            借阅模板设置
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BaseBorrowModeControllers.#ctor(MediatR.IMediator)">
+            <summary>
+            注入
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BaseBorrowModeControllers.CreateBaseBorrowMode(Trasen.PaperFree.Application.SystemBasicInfo.Commands.BaseBorrowMode.CreateBaseBorrowModeCmd)">
+             <summary>
+            创建借阅模板
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BaseBorrowModeControllers.UpdateBaseBorrowMode(System.String,Trasen.PaperFree.Application.SystemBasicInfo.Commands.BaseBorrowMode.ModifyBaseBorrowModeCmd)">
+            <summary>
+            更新流程节点
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BaseBorrowModeControllers.DeleteBaseBorrowMode(System.String)">
+             <summary>
+            删除借阅模板
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BaseBorrowModeControllers.FindBaseBorrowModeById(System.String)">
+             <summary>
+            按ID查找借阅模板信息
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BasewatermarkControllers">
+            <summary>
+            水印表操作
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BasewatermarkControllers.#ctor(MediatR.IMediator)">
+            <summary>
+            注入
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BasewatermarkControllers.CreateBaseWatermar(Trasen.PaperFree.Application.SystemBasicInfo.Commands.BaseWatermark.CreateBaseWatermarkCmd)">
+            <summary>
+            新增水印表数据
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BasewatermarkControllers.UpdateBaseWatermark(System.String,Trasen.PaperFree.Application.SystemBasicInfo.Commands.BaseWatermark.ModifyBaseWatermarkCmd)">
+            <summary>
+            修改水印表数据
+            </summary>
+            <param name="id">水印ID</param>
+            <param name="request">修改内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BasewatermarkControllers.DeleteBaseWatermark(System.String)">
+            <summary>
+            删除水印表数据
+            </summary>
+            <param name="id">水印数据ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BasewatermarkControllers.FindBaseWatermarkById(System.String)">
+            <summary>
+            按ID但条件查询
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.BasewatermarkControllers.BasewatermarkPageList(System.Int32,System.Int32,Trasen.PaperFree.Application.SystemBasicInfo.Query.BaseWatermark.FindBaseWatermarkPageListQry)">
+            <summary>
+            水印管理列表
+            </summary>
+            <param name="pageindex"></param>
+            <param name="pagesize"></param>
+            <param name="qry"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.CaseShelfControllers">
+            <summary>
+            纸质病例存储管理
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.CaseShelfControllers.#ctor(MediatR.IMediator)">
+            <summary>
+            注入构建
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.CaseShelfControllers.CreateCaseShelfManagement(Trasen.PaperFree.Application.SystemBasicInfo.Commands.CaseManagement.CreateCaseShelfManagementCmd)">
+             <summary>
+            创建仓库
+             </summary>
+             <param name="request"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.CaseShelfControllers.UpdateCaseShelfManagement(System.String,Trasen.PaperFree.Application.SystemBasicInfo.Commands.CaseManagement.ModifyCaseShelfManagementCmd)">
+            <summary>
+            修改仓库内容
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.CaseShelfControllers.DeleteCaseShelfManagement(System.String)">
+             <summary>
+            删除仓库
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.CaseShelfControllers.FindCaseShelfManagementById(System.String)">
+             <summary>
+            按ID查找仓库信息
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.CaseShelfControllers.ShelfManagementPageList(System.Int32,System.Int32,Trasen.PaperFree.Application.SystemBasicInfo.Query.CaseManagement.FindCaseShelfManagementPageListQry)">
+            <summary>
+            仓库信息管理列表
+            </summary>
+            <param name="pageindex"></param>
+            <param name="pagesize"></param>
+            <param name="qry"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.DeptMenuTreeControllers">
+            <summary>
+            必传文件配置
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.DeptMenuTreeControllers.#ctor(MediatR.IMediator)">
+            <summary>
+            
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.DeptMenuTreeControllers.UpdateDeptMeumTreeList(Trasen.PaperFree.Application.SystemBasicInfo.Commands.DeptMeunTree.ModifyDeptMeunTreeCmd)">
+            <summary>
+            批量修改必传文件配置
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.DeptMenuTreeControllers.DeptMeumTreePageList(System.Int32,System.Int32,Trasen.PaperFree.Application.SystemBasicInfo.Query.DeptMeunTree.FindDeptMenuTreePageListQuery)">
+            <summary>
+            必传文件配置管理列表
+            </summary>
+            <param name="pageindex"></param>
+            <param name="pagesize"></param>
+            <param name="qry"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.DeptMenuTreeControllers.DeptMeumTreeList(Trasen.PaperFree.Application.SystemBasicInfo.Query.DeptMeunTree.FindDeptMenuTreeDeptQuery)">
+            <summary>
+            必传文件目录列表
+            </summary>
+            <param name="qry"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.PayConfigControllers">
+            <summary>
+            支付配置表
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.PayConfigControllers.CreateBaseWatermar(Trasen.PaperFree.Application.SystemBasicInfo.Commands.PayConfig.CreatePayConfigCmd)">
+            <summary>
+            新增支付配置表
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.PayConfigControllers.UpdateBaseWatermark(System.String,Trasen.PaperFree.Application.SystemBasicInfo.Commands.PayConfig.ModifyPayConfigCmd)">
+            <summary>
+            修改支付配置表
+            </summary>
+            <param name="id"></param>
+            <param name="request">修改内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.PayConfigControllers.DeleteBaseWatermark(System.String)">
+            <summary>
+            删除支付配置表
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.PayConfigControllers.PayConfigPageList(System.Int32,System.Int32,Trasen.PaperFree.Application.SystemBasicInfo.Query.PayConfigQuery.FindPayConfigPageListQry)">
+            <summary>
+            支付管理列表
+            </summary>
+            <param name="pageindex"></param>
+            <param name="qry"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController">
+            <summary>
+            流程设计
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.#ctor(MediatR.IMediator)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.CreteWorkDesign(Trasen.PaperFree.Application.SystemBasicInfo.Commands.ProcessRecord.CreateWorkDesignCmd)">
+            <summary>
+            创建流程设计
+            </summary>
+            <param name="request">创建流程设计指令</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.UpdateProcessDesign(System.String,Trasen.PaperFree.Application.SystemBasicInfo.Commands.ProcessRecord.ModifyProcessDesignCmd)">
+            <summary>
+            更新流程设计
+            </summary>
+            <param name="id">流程设计ID</param>
+            <param name="request">更新流程设计指令</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.UpdateProcessDesign(System.String,Trasen.PaperFree.Application.SystemBasicInfo.Commands.ProcessRecord.ModifyWorkDesignCmd)">
+            <summary>
+            更新流程设计
+            </summary>
+            <param name="id">流程设计ID</param>
+            <param name="request">更新流程设计指令</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.DeleteProcessDesign(System.String)">
+             <summary>
+            删除流程设计
+             </summary>
+             <param name="id">流程设计ID</param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.FindProcessDesignById(System.String)">
+             <summary>
+            按ID查找流程设计
+             </summary>
+             <param name="id">流程设计ID</param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.FindProcessDesignPageList(System.Int32,System.Int32,Trasen.PaperFree.Application.SystemBasicInfo.Query.ProcessRecord.FindProcessDesignPageListQry)">
+            <summary>
+            流程设计分页列表
+            </summary>
+            <param name="pageSize">页码大小</param>
+            <param name="pageIndex">分页索引</param>
+            <param name="request">流程设计分页列表检索条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.CreteProcessNode(Trasen.PaperFree.Application.SystemBasicInfo.Commands.ProcessRecord.CreateProcessNodeCmd)">
+            <summary>
+            创建流程节点
+            </summary>
+            <param name="request">创建流程节点指令</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.UpdateProcessNode(System.String,Trasen.PaperFree.Application.SystemBasicInfo.Commands.ProcessRecord.ModifyProcessNodeCmd)">
+            <summary>
+            更新流程节点
+            </summary>
+            <param name="id">流程节点ID</param>
+            <param name="request">更新流程节点指令</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.DeleteProcessNode(System.String)">
+             <summary>
+            删除流程节点
+             </summary>
+             <param name="id">流程节点ID</param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.FindProcessNodeById(System.String)">
+             <summary>
+            按ID查找流程节点
+             </summary>
+             <param name="id">流程节点ID</param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.FindNodePageList(System.Int32,System.Int32,System.String)">
+            <summary>
+            流程节点分页列表
+            </summary>
+            <param name="pageSize">页码大小</param>
+            <param name="pageIndex">分页索引</param>
+            <param name="id">流程设计ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.EventDirectionBranchDroupList">
+            <summary>
+            节点事件方向分支
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.DropSelectNodeByProcessDesignId(System.String)">
+            <summary>
+            按ID获取流程设计下流程节点下拉框集合
+            </summary>
+            <param name="id">流程设计ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.WorkFlowTempType">
+            <summary>
+            流程模板类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.WorkFlowTempType(Trasen.PaperFree.Domain.Shared.Enums.SystemBasicData.ProcessTempType)">
+            <summary>
+            按流程模板类型获取流程状态下拉框集合
+            </summary>
+            <param name="type">流程模板类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.WorkFlowTempTypeAll">
+            <summary>
+            流程状态下拉框集合全部
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.ProcessDesignController.CopyWorkFlowTemp(System.String)">
+            <summary>
+            复制流程模板
+            </summary>
+            <param name="id">流程设计ID</param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.SysOperLogController">
+            <summary>
+            系统操作日志
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.SysOperLogController.#ctor(MediatR.IMediator)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.SysOperLogController.FindSysOperLogPageList(System.Int32,System.Int32,Trasen.PaperFree.Application.SystemBasicInfo.Query.SysOperLog.FindSysOperLogPageListQry)">
+            <summary>
+            系统日志分页列表
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="qry"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.SysOperLogController.BusinessTypeAll">
+            <summary>
+            获取业务类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.SysOperLogController.BperatorTypeAll">
+            <summary>
+            操作类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.SysOperLogController.StatusLogTypeAll">
+            <summary>
+            日志状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Controllers.SystemBasicInfo.SysOperLogController.FindSysOperLogDetailById(System.String)">
+            <summary>
+            系统日志详细
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Filter.GlobalActionMonitor">
+            <summary>
+            全局Action监控
+            </summary>
+        </member>
+        <member name="F:Trasen.PaperFree.Host.Filter.GlobalActionMonitor.watch">
+            <summary>
+            请求时长计时开始
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Filter.GlobalActionMonitor.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext,Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)">
+             <summary>
+            
+             </summary>
+             <param name="context"></param>
+             <param name="next"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Filter.GlobalActionMonitor.OnResultExecuted(Microsoft.AspNetCore.Mvc.Filters.ResultExecutedContext)">
+             <summary>
+            
+             </summary>
+             <param name="context"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Filter.GlobalActionMonitor.GlobalActionMonitorLogAsync(Trasen.PaperFree.Domain.SystemBasicData.Entity.SysOperLog)">
+             <summary>
+             定义一个后台作业【任务】
+            
+             假如我们登录后> 有件非常耗时的操作（3分钟才能完成）
+             如果同步执行 影响登录功能体验
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware">
+            <summary>
+            全局异常处理中间件
+            调用 app.UseMiddlewareGlobalExceptionMiddleware>();
+            </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Hosting.IHostApplicationLifetime,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.Extensions.Logging.ILogger{Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware},Trasen.PaperFree.Domain.SeedWork.ICurrentUser,Trasen.PaperFree.Domain.SeedWork.IEmail)">
+             <summary>
+            
+             </summary>
+             <param name="next"></param>
+             <param name="appLifetime"></param>
+             <param name="scopeFactory"></param>
+             <param name="logger"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+             <summary>
+            
+             </summary>
+             <param name="context"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)">
+            <summary>
+            异常处理
+            </summary>
+            <param name="context"></param>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.GetEndpoint(Microsoft.AspNetCore.Http.HttpContext)">
+             <summary>
+            
+             </summary>
+             <param name="context"></param>
+             <returns></returns>
+             <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="T:Trasen.PaperFree.Host.Program">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Program.Main(System.String[])">
+             <summary>
+            
+             </summary>
+             <param name="args"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Program.SwaggerGen(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            SwaggerGen
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Program.ConfigHangfireDashboard(Microsoft.AspNetCore.Builder.WebApplication)">
+            <summary>
+            Hangfire仪表盘设置
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:Trasen.PaperFree.Host.Program.AssemblyList">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

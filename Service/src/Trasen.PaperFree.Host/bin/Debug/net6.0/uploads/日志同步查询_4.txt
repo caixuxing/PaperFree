@@ -1,0 +1,12 @@
+SELECT aboutID,count(aboutID) FROM (SELECT t.ID,
+                      t.[module],
+                      t.Inpatient_id,
+                      case
+                          WHEN (aboutID is NULL or aboutID = '') THEN cast(Inpatient_id as varchar(225))
+                          ELSE aboutID END as aboutID,
+                      t.baby_id,
+                      t.FileName
+               FROM log_bl_PatientsActionRecords t WITH (NOLOCK)
+               where t.stateFlag = 0
+                 and (t.StrBase64 is not null or Action like '%删除%')) t group by t.aboutID
+ having count(aboutID)>1

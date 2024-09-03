@@ -1,0 +1,15 @@
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\bin\Release\net6.0\Trasen.PaperFree.Domain.deps.json
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\bin\Release\net6.0\Trasen.PaperFree.Domain.dll
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\bin\Release\net6.0\Trasen.PaperFree.Domain.pdb
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\bin\Release\net6.0\Trasen.PaperFree.Domain.Shared.dll
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\bin\Release\net6.0\Trasen.PaperFree.Domain.Shared.pdb
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\Trasen.PaperFree.Domain.csproj.AssemblyReference.cache
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\Trasen.PaperFree.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\Trasen.PaperFree.Domain.AssemblyInfoInputs.cache
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\Trasen.PaperFree.Domain.AssemblyInfo.cs
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\Trasen.PaperFree.Domain.csproj.CoreCompileInputs.cache
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\Trasen.PaperFree.Domain.csproj.CopyComplete
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\Trasen.PaperFree.Domain.dll
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\refint\Trasen.PaperFree.Domain.dll
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\Trasen.PaperFree.Domain.pdb
+D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Domain\obj\Release\net6.0\ref\Trasen.PaperFree.Domain.dll

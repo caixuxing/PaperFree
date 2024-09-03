@@ -1,0 +1,101 @@
+
+【INF】2024-03-21 09:01:14.787
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:01:14.840
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:01:14.888
+#Msg#Server hangfire1test_ccx:20652:1138bfb4 successfully announced in 29.7994 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:01:14.894
+#Msg#Server hangfire1test_ccx:20652:1138bfb4 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:01:15.176
+#Msg#Server hangfire1test_ccx:20652:1138bfb4 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:12:39.214
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:12:39.266
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:12:39.315
+#Msg#Server hangfire1test_ccx:13592:46082a8a successfully announced in 26.6273 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:12:39.321
+#Msg#Server hangfire1test_ccx:13592:46082a8a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:12:39.620
+#Msg#Server hangfire1test_ccx:13592:46082a8a all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:06.293
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:06.339
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:06.390
+#Msg#Server hangfire1test_ccx:21860:7669f99a successfully announced in 29.1559 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:06.396
+#Msg#Server hangfire1test_ccx:21860:7669f99a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:06.640
+#Msg#Server hangfire1test_ccx:21860:7669f99a all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-21 09:13:09.691
+#Msg#Stopping the server due to DomainUnload or ProcessExit event...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundProcessingServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:09.692
+#Msg#Server hangfire1test_ccx:21860:7669f99a caught stopping signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:09.696
+#Msg#Server hangfire1test_ccx:21860:7669f99a caught stopped signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:09.712
+#Msg#Server hangfire1test_ccx:21860:7669f99a All dispatchers stopped
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-21 09:13:09.722
+#Msg#Server hangfire1test_ccx:21860:7669f99a caught shutdown signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:09.732
+#Msg#Server hangfire1test_ccx:21860:7669f99a successfully reported itself as stopped in 6.2441 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-21 09:13:09.733
+#Msg#Server hangfire1test_ccx:21860:7669f99a has been stopped in total 37.8489 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------

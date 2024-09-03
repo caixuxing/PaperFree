@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JEXlp3YSVogQcTtRgqiC6eOcKV+eBphBweNMAxsDA6w=",
+  "Source": "Trasen.PaperFree.Host",
+  "BasePath": "_content/Trasen.PaperFree.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

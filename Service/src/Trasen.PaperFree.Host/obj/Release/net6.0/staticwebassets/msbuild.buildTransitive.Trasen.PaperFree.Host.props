@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Trasen.PaperFree.Host.props" />
+</Project>

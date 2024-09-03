@@ -1,0 +1,1799 @@
+
+【INF】2024-03-19 09:14:30.089
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:14:30.153
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:14:30.234
+#Msg#Server hangfire1test_ccx:22108:6ebe25cb successfully announced in 26.3678 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:14:30.241
+#Msg#Server hangfire1test_ccx:22108:6ebe25cb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:14:30.572
+#Msg#Server hangfire1test_ccx:22108:6ebe25cb all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:15:57.785
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:15:57.841
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:15:57.897
+#Msg#Server hangfire1test_ccx:33080:aaf05849 successfully announced in 32.8156 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:15:57.908
+#Msg#Server hangfire1test_ccx:33080:aaf05849 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:15:58.186
+#Msg#Server hangfire1test_ccx:33080:aaf05849 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:17:15.881
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:17:15.979
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:17:16.033
+#Msg#Server hangfire1test_ccx:372:6e47e445 successfully announced in 28.6296 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:17:16.044
+#Msg#Server hangfire1test_ccx:372:6e47e445 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:17:16.323
+#Msg#Server hangfire1test_ccx:372:6e47e445 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:21:12.548
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:21:12.603
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:21:12.652
+#Msg#Server hangfire1test_ccx:35552:17634c35 successfully announced in 25.4993 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:21:12.663
+#Msg#Server hangfire1test_ccx:35552:17634c35 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:21:12.842
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:21:12.964
+#Msg#Server hangfire1test_ccx:35552:17634c35 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 09:21:45.311
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：请先设置流程归档流程模板！
+
+> 
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27MBERQ833:00000004","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27MBERQ833"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:22:37.020
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:22:37.073
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:22:37.124
+#Msg#Server hangfire1test_ccx:1932:ac926740 successfully announced in 27.3509 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:22:37.132
+#Msg#Server hangfire1test_ccx:1932:ac926740 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:22:37.326
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:22:37.434
+#Msg#Server hangfire1test_ccx:1932:ac926740 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 09:23:07.292
+#Msg#agent reporter fail
+#Pro #{"SourceContext":"Hangfire.HttpJob.Server.JobAgent.JobAgentReportServer"}
+#Exc#StackExchange.Redis.RedisTimeoutException: Timeout performing SET (5000ms), inst: 1, qu: 0, qs: 0, aw: False, bw: SpinningDown, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 1, cur-in: 0, sync-ops: 282, async-ops: 4, serverEndpoint: 192.168.18.89:6379, conn-sec: 30.48, aoc: 1, mc: 1/1/0, mgr: 10 of 10 available, clientName: DESKTOP-U0GK34O(SE.Redis-v2.6.111.64013), IOCP: (Busy=0,Free=1000,Min=16,Max=1000), WORKER: (Busy=2,Free=32765,Min=16,Max=32767), POOL: (Threads=17,QueuedItems=0,CompletedItems=311), v: 2.6.111.64013 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at StackExchange.Redis.ConnectionMultiplexer.ExecuteSyncImpl[T](Message message, ResultProcessor`1 processor, ServerEndPoint server, T defaultValue) in /_/src/StackExchange.Redis/ConnectionMultiplexer.cs:line 2093
+   at StackExchange.Redis.RedisDatabase.LockTake(RedisKey key, RedisValue value, TimeSpan expiry, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1437
+   at Hangfire.Redis.StackExchange.RedisLock.Acquire(IDatabase redis, RedisKey key, TimeSpan timeOut, TimeSpan holdDuration)
+   at Hangfire.Redis.StackExchange.RedisLock.Acquire(IDatabase redis, RedisKey key, TimeSpan timeOut)
+   at Hangfire.Redis.StackExchange.RedisConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.HttpJob.Server.JobAgent.JobAgentReportServer.OnVerify(Object state)
+--------------------------------------------------
+【INF】2024-03-19 09:23:56.833
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:23:56.886
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:23:56.951
+#Msg#Server hangfire1test_ccx:19200:32754e41 successfully announced in 27.4778 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:23:56.957
+#Msg#Server hangfire1test_ccx:19200:32754e41 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:23:57.248
+#Msg#Server hangfire1test_ccx:19200:32754e41 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 09:25:10.117
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：病历状态非待提交状态无法发起归档操作！
+
+> 
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27MCVN4PH2:00000004","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27MCVN4PH2"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:25:33.886
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:25:33.946
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:25:33.998
+#Msg#Server hangfire1test_ccx:26732:0bc62e28 successfully announced in 27.3603 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:25:34.027
+#Msg#Server hangfire1test_ccx:26732:0bc62e28 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:25:34.285
+#Msg#Server hangfire1test_ccx:26732:0bc62e28 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 09:26:25.432
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> An error occurred while saving the entity changes. See the inner exception for details.
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27MDSO4VO1:00000005","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27MDSO4VO1"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:26:41.668
+#Msg#Execution RecurringJobScheduler recovered from the Faulted state after 00:00:16.3452895 and is in the Running state now
+#Pro #{"SourceContext":"Hangfire.Processing.BackgroundExecution"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:35:44.442
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:35:44.502
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:35:44.556
+#Msg#Server hangfire1test_ccx:33752:2c5075bf successfully announced in 28.4593 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:35:44.567
+#Msg#Server hangfire1test_ccx:33752:2c5075bf is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:35:44.840
+#Msg#Server hangfire1test_ccx:33752:2c5075bf all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 09:36:10.980
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> ORA-00904: "a"."IS_DELETED": 标识符无效
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27MJILKC6H:00000005","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27MJILKC6H"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:38:50.769
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:38:50.824
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:38:50.872
+#Msg#Server hangfire1test_ccx:30916:fb663c46 successfully announced in 25.1028 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:38:50.879
+#Msg#Server hangfire1test_ccx:30916:fb663c46 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:38:51.159
+#Msg#Server hangfire1test_ccx:30916:fb663c46 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 09:40:10.427
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> An error occurred while saving the entity changes. See the inner exception for details.
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27MLA77QEO:00000004","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27MLA77QEO"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 09:41:10.785
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> An error occurred while saving the entity changes. See the inner exception for details.
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27MLA77QEO:00000005","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27MLA77QEO"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:48:52.693
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:48:52.749
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:48:52.799
+#Msg#Server hangfire1test_ccx:26904:d81097d4 successfully announced in 26.7155 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:48:52.809
+#Msg#Server hangfire1test_ccx:26904:d81097d4 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:48:52.942
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:48:53.069
+#Msg#Server hangfire1test_ccx:26904:d81097d4 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:53:19.490
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:53:19.545
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:53:19.596
+#Msg#Server hangfire1test_ccx:9776:ce89434e successfully announced in 28.2744 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:53:19.604
+#Msg#Server hangfire1test_ccx:9776:ce89434e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 09:53:19.949
+#Msg#Server hangfire1test_ccx:9776:ce89434e all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:42:58.043
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:42:58.102
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:42:58.151
+#Msg#Server hangfire1test_ccx:29936:afc4c1a5 successfully announced in 25.9475 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:42:58.158
+#Msg#Server hangfire1test_ccx:29936:afc4c1a5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:42:58.425
+#Msg#Server hangfire1test_ccx:29936:afc4c1a5 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:00.378
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:00.437
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:00.494
+#Msg#Server hangfire1test_ccx:4508:9d4831c1 successfully announced in 30.4069 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:00.507
+#Msg#Server hangfire1test_ccx:4508:9d4831c1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:00.821
+#Msg#Server hangfire1test_ccx:4508:9d4831c1 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:52.367
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:52.421
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:52.469
+#Msg#Server hangfire1test_ccx:36792:c1d004e2 successfully announced in 25.3604 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:52.477
+#Msg#Server hangfire1test_ccx:36792:c1d004e2 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 10:45:52.740
+#Msg#Server hangfire1test_ccx:36792:c1d004e2 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:21:05.869
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:21:05.936
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:21:06.006
+#Msg#Server hangfire1test_ccx:27124:84201f76 successfully announced in 26.8369 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:21:06.013
+#Msg#Server hangfire1test_ccx:27124:84201f76 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:21:06.375
+#Msg#Server hangfire1test_ccx:27124:84201f76 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:27:26.375
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:27:26.429
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:27:26.480
+#Msg#Server hangfire1test_ccx:29656:3cfc50db successfully announced in 26.6066 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:27:26.492
+#Msg#Server hangfire1test_ccx:29656:3cfc50db is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:27:26.663
+#Msg#2 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:27:26.767
+#Msg#Server hangfire1test_ccx:29656:3cfc50db all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:21.302
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:21.351
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:21.401
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 successfully announced in 27.4001 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:21.412
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:21.675
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 11:29:23.857
+#Msg#Stopping the server due to DomainUnload or ProcessExit event...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundProcessingServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:23.858
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 caught stopping signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:23.862
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 caught stopped signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 11:29:23.885
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 caught shutdown signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:23.885
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 All dispatchers stopped
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:23.894
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 successfully reported itself as stopped in 3.7251 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:23.896
+#Msg#Server hangfire1test_ccx:22784:16a0fea9 has been stopped in total 34.8818 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:27.956
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:28.029
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:28.080
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 successfully announced in 28.6073 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:28.108
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:29:28.385
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:29:46.550
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：创建流程设计
+> 操作地址：/api/ProcessDesign/Create
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> ORA-00942: 表或视图不存在
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27OJ4584ML:00000002","RequestPath":"/api/ProcessDesign/Create","ConnectionId":"0HN27OJ4584ML"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:29:46.953
+#Msg#Connection id "0HN27OJ4584ML", Request id "0HN27OJ4584ML:00000002": An unhandled exception was thrown by the application.
+#Pro #{"EventId":{"Id":13,"Name":"ApplicationError"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","RequestId":"0HN27OJ4584ML:00000002","RequestPath":"/api/ProcessDesign/Create"}
+#Exc#Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: 第 13 行, 第 14 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 13 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\AppDbContext.cs:line 124
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\UnitOfWork.cs:line 19
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 124
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 60
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+--------------------------------------------------
+【WRN】2024-03-19 11:30:07.291
+#Msg#Stopping the server due to DomainUnload or ProcessExit event...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundProcessingServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:30:07.293
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 caught stopping signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:30:07.298
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 caught stopped signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 11:30:07.304
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 caught shutdown signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 11:30:07.308
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 stopped non-gracefully due to RedisSubscription. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:30:07.321
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 successfully reported itself as stopped in 5.3763 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:30:07.322
+#Msg#Server hangfire1test_ccx:26228:a788d3f1 has been stopped in total 24.3247 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:31:49.630
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:31:49.685
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:31:49.745
+#Msg#Server hangfire1test_ccx:18096:9d46c32a successfully announced in 35.0884 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:31:49.753
+#Msg#Server hangfire1test_ccx:18096:9d46c32a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:31:50.061
+#Msg#Server hangfire1test_ccx:18096:9d46c32a all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:32:02.406
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：创建流程设计
+> 操作地址：/api/ProcessDesign/Create
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> ORA-00942: 表或视图不存在
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27OKEG38U4:00000002","RequestPath":"/api/ProcessDesign/Create","ConnectionId":"0HN27OKEG38U4"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:32:02.777
+#Msg#Connection id "0HN27OKEG38U4", Request id "0HN27OKEG38U4:00000002": An unhandled exception was thrown by the application.
+#Pro #{"EventId":{"Id":13,"Name":"ApplicationError"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","RequestId":"0HN27OKEG38U4:00000002","RequestPath":"/api/ProcessDesign/Create"}
+#Exc#Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: 第 13 行, 第 14 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 13 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\AppDbContext.cs:line 124
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\UnitOfWork.cs:line 19
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 124
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 60
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+--------------------------------------------------
+【INF】2024-03-19 11:33:49.015
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:33:49.074
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:33:49.132
+#Msg#Server hangfire1test_ccx:22896:55635134 successfully announced in 33.2576 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:33:49.150
+#Msg#Server hangfire1test_ccx:22896:55635134 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:33:49.413
+#Msg#Server hangfire1test_ccx:22896:55635134 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:33:58.934
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> ORA-00942: 表或视图不存在
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27OLI2KCN0:00000002","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27OLI2KCN0"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:33:59.317
+#Msg#Connection id "0HN27OLI2KCN0", Request id "0HN27OLI2KCN0:00000002": An unhandled exception was thrown by the application.
+#Pro #{"EventId":{"Id":13,"Name":"ApplicationError"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","RequestId":"0HN27OLI2KCN0:00000002","RequestPath":"/api/Archive/Apply"}
+#Exc#Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: 第 13 行, 第 14 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 13 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\AppDbContext.cs:line 124
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\UnitOfWork.cs:line 19
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 124
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 60
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+--------------------------------------------------
+【WRN】2024-03-19 11:34:09.912
+#Msg#Stopping the server due to DomainUnload or ProcessExit event...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundProcessingServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:09.914
+#Msg#Server hangfire1test_ccx:22896:55635134 caught stopping signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:09.919
+#Msg#Server hangfire1test_ccx:22896:55635134 caught stopped signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 11:34:09.928
+#Msg#Server hangfire1test_ccx:22896:55635134 caught shutdown signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 11:34:09.931
+#Msg#Server hangfire1test_ccx:22896:55635134 stopped non-gracefully due to RedisSubscription. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:09.944
+#Msg#Server hangfire1test_ccx:22896:55635134 successfully reported itself as stopped in 8.9774 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:09.945
+#Msg#Server hangfire1test_ccx:22896:55635134 has been stopped in total 25.9247 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:26.249
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:26.297
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:26.345
+#Msg#Server hangfire1test_ccx:28072:6cb2ef5d successfully announced in 25.9696 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:26.356
+#Msg#Server hangfire1test_ccx:28072:6cb2ef5d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:34:26.620
+#Msg#Server hangfire1test_ccx:28072:6cb2ef5d all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:34:38.072
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：创建流程设计
+> 操作地址：/api/ProcessDesign/Create
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> ORA-00942: 表或视图不存在
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27OLT4FM30:00000005","RequestPath":"/api/ProcessDesign/Create","ConnectionId":"0HN27OLT4FM30"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:34:38.445
+#Msg#Connection id "0HN27OLT4FM30", Request id "0HN27OLT4FM30:00000005": An unhandled exception was thrown by the application.
+#Pro #{"EventId":{"Id":13,"Name":"ApplicationError"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","RequestId":"0HN27OLT4FM30:00000005","RequestPath":"/api/ProcessDesign/Create"}
+#Exc#Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: 第 13 行, 第 14 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 13 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\AppDbContext.cs:line 124
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\UnitOfWork.cs:line 19
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 124
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 60
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+--------------------------------------------------
+【INF】2024-03-19 11:39:05.908
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:39:05.965
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:39:06.045
+#Msg#Server hangfire1test_ccx:31284:baa45a04 successfully announced in 30.249 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:39:06.056
+#Msg#Server hangfire1test_ccx:31284:baa45a04 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:39:06.222
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:39:06.330
+#Msg#Server hangfire1test_ccx:31284:baa45a04 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:39:23.830
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：创建流程设计
+> 操作地址：/api/ProcessDesign/Create
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> ORA-00942: 表或视图不存在
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27OOGD5E0A:00000005","RequestPath":"/api/ProcessDesign/Create","ConnectionId":"0HN27OOGD5E0A"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:39:24.210
+#Msg#Connection id "0HN27OOGD5E0A", Request id "0HN27OOGD5E0A:00000005": An unhandled exception was thrown by the application.
+#Pro #{"EventId":{"Id":13,"Name":"ApplicationError"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","RequestId":"0HN27OOGD5E0A:00000005","RequestPath":"/api/ProcessDesign/Create"}
+#Exc#Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: 第 13 行, 第 14 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 13 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\AppDbContext.cs:line 123
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\UnitOfWork.cs:line 19
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 124
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 60
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+--------------------------------------------------
+【INF】2024-03-19 11:40:24.963
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:40:25.029
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:40:25.080
+#Msg#Server hangfire1test_ccx:15168:5cb18745 successfully announced in 26.6113 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:40:25.092
+#Msg#Server hangfire1test_ccx:15168:5cb18745 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:40:25.370
+#Msg#Server hangfire1test_ccx:15168:5cb18745 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:40:42.208
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：创建流程设计
+> 操作地址：/api/ProcessDesign/Create
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> ORA-00942: 表或视图不存在
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27OP7URMPS:00000005","RequestPath":"/api/ProcessDesign/Create","ConnectionId":"0HN27OP7URMPS"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:40:42.581
+#Msg#Connection id "0HN27OP7URMPS", Request id "0HN27OP7URMPS:00000005": An unhandled exception was thrown by the application.
+#Pro #{"EventId":{"Id":13,"Name":"ApplicationError"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","RequestId":"0HN27OP7URMPS:00000005","RequestPath":"/api/ProcessDesign/Create"}
+#Exc#Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: 第 13 行, 第 14 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 13 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\AppDbContext.cs:line 125
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\UnitOfWork.cs:line 19
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 124
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 60
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+--------------------------------------------------
+【WRN】2024-03-19 11:42:22.448
+#Msg#Stopping the server due to DomainUnload or ProcessExit event...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundProcessingServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:42:22.450
+#Msg#Server hangfire1test_ccx:15168:5cb18745 caught stopping signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:42:22.456
+#Msg#Server hangfire1test_ccx:15168:5cb18745 caught stopped signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 11:42:22.464
+#Msg#Server hangfire1test_ccx:15168:5cb18745 caught shutdown signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:42:22.464
+#Msg#Server hangfire1test_ccx:15168:5cb18745 All dispatchers stopped
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:42:22.474
+#Msg#Server hangfire1test_ccx:15168:5cb18745 successfully reported itself as stopped in 4.5881 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:42:22.475
+#Msg#Server hangfire1test_ccx:15168:5cb18745 has been stopped in total 19.6602 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:49:08.342
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:49:08.395
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:49:08.447
+#Msg#Server hangfire1test_ccx:11680:5506850b successfully announced in 26.066 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:49:08.458
+#Msg#Server hangfire1test_ccx:11680:5506850b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 11:49:08.746
+#Msg#Server hangfire1test_ccx:11680:5506850b all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:49:37.006
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：创建流程设计
+> 操作地址：/api/ProcessDesign/Create
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> ORA-00942: 表或视图不存在
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27OU42FR8I:00000002","RequestPath":"/api/ProcessDesign/Create","ConnectionId":"0HN27OU42FR8I"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 11:49:38.080
+#Msg#Connection id "0HN27OU42FR8I", Request id "0HN27OU42FR8I:00000002": An unhandled exception was thrown by the application.
+#Pro #{"EventId":{"Id":13,"Name":"ApplicationError"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","RequestId":"0HN27OU42FR8I:00000002","RequestPath":"/api/ProcessDesign/Create"}
+#Exc#Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: 第 13 行, 第 14 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 13 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, Int64 internalInitialJSONFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\AppDbContext.cs:line 122
+   at Trasen.PaperFree.Infrastructure.Database.DbContext.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Infrastructure\Database\DbContext\UnitOfWork.cs:line 19
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(HttpContext context, Exception ex) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 124
+   at Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in D:\Work\project\wzh\trunk\无纸化BS版\Service\src\Trasen.PaperFree.Host\Middleware\GlobalExceptionMiddleware.cs:line 60
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+--------------------------------------------------
+【INF】2024-03-19 13:51:32.265
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:51:32.314
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:51:32.362
+#Msg#Server hangfire1test_ccx:34128:9bc8a9fd successfully announced in 26.3586 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:51:32.368
+#Msg#Server hangfire1test_ccx:34128:9bc8a9fd is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:51:32.645
+#Msg#Server hangfire1test_ccx:34128:9bc8a9fd all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:57:12.878
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:57:12.951
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:57:13.002
+#Msg#Server hangfire1test_ccx:28412:cd164e6d successfully announced in 28.1723 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:57:13.030
+#Msg#Server hangfire1test_ccx:28412:cd164e6d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:57:13.213
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 13:57:13.341
+#Msg#Server hangfire1test_ccx:28412:cd164e6d all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:29:55.078
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:29:55.133
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:29:55.182
+#Msg#Server hangfire1test_ccx:30960:4fa7ae0a successfully announced in 26.8965 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:29:55.188
+#Msg#Server hangfire1test_ccx:30960:4fa7ae0a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:29:55.465
+#Msg#Server hangfire1test_ccx:30960:4fa7ae0a all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:19.519
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:19.604
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:19.692
+#Msg#Server hangfire1test_ccx:35404:95b03379 successfully announced in 38.4457 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:19.701
+#Msg#Server hangfire1test_ccx:35404:95b03379 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:20.041
+#Msg#Server hangfire1test_ccx:35404:95b03379 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:35.493
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:35.543
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:35.594
+#Msg#Server hangfire1test_ccx:23092:effab01e successfully announced in 25.8514 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:35.606
+#Msg#Server hangfire1test_ccx:23092:effab01e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:35.884
+#Msg#Server hangfire1test_ccx:23092:effab01e all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 14:34:42.951
+#Msg#Stopping the server due to DomainUnload or ProcessExit event...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundProcessingServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:42.953
+#Msg#Server hangfire1test_ccx:23092:effab01e caught stopping signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:42.957
+#Msg#Server hangfire1test_ccx:23092:effab01e caught stopped signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【WRN】2024-03-19 14:34:42.963
+#Msg#Server hangfire1test_ccx:23092:effab01e caught shutdown signal...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:42.972
+#Msg#Server hangfire1test_ccx:23092:effab01e All dispatchers stopped
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:42.980
+#Msg#Server hangfire1test_ccx:23092:effab01e successfully reported itself as stopped in 4.0848 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:34:42.982
+#Msg#Server hangfire1test_ccx:23092:effab01e has been stopped in total 25.2761 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:35:54.497
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:35:54.547
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:35:54.598
+#Msg#Server hangfire1test_ccx:34260:7d1e5264 successfully announced in 27.2348 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:35:54.609
+#Msg#Server hangfire1test_ccx:34260:7d1e5264 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:35:54.787
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:35:54.876
+#Msg#Server hangfire1test_ccx:34260:7d1e5264 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:36:33.420
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:36:33.484
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:36:33.555
+#Msg#Server hangfire1test_ccx:11492:3b32d620 successfully announced in 28.0698 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:36:33.562
+#Msg#Server hangfire1test_ccx:11492:3b32d620 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:36:33.822
+#Msg#Server hangfire1test_ccx:11492:3b32d620 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:39:27.316
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:39:27.374
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:39:27.450
+#Msg#Server hangfire1test_ccx:31776:9b397085 successfully announced in 29.4689 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:39:27.457
+#Msg#Server hangfire1test_ccx:31776:9b397085 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:39:27.622
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:39:27.752
+#Msg#Server hangfire1test_ccx:31776:9b397085 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:50:46.087
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:50:46.135
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:50:46.185
+#Msg#Server hangfire1test_ccx:24892:6d835074 successfully announced in 25.7141 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:50:46.193
+#Msg#Server hangfire1test_ccx:24892:6d835074 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:50:46.460
+#Msg#Server hangfire1test_ccx:24892:6d835074 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:51:31.673
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:51:31.723
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:51:31.773
+#Msg#Server hangfire1test_ccx:31256:e53ce02e successfully announced in 25.6158 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:51:31.786
+#Msg#Server hangfire1test_ccx:31256:e53ce02e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:51:32.105
+#Msg#Server hangfire1test_ccx:31256:e53ce02e all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:53:11.728
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:53:11.782
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:53:11.858
+#Msg#Server hangfire1test_ccx:2944:8057f1f5 successfully announced in 29.8891 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:53:11.868
+#Msg#Server hangfire1test_ccx:2944:8057f1f5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:53:12.181
+#Msg#Server hangfire1test_ccx:2944:8057f1f5 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:59:11.083
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:59:11.133
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:59:11.188
+#Msg#Server hangfire1test_ccx:19128:d7bb7b7f successfully announced in 27.9215 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:59:11.195
+#Msg#Server hangfire1test_ccx:19128:d7bb7b7f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:59:11.375
+#Msg#2 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 14:59:11.469
+#Msg#Server hangfire1test_ccx:19128:d7bb7b7f all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:02:59.748
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:02:59.803
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:02:59.870
+#Msg#Server hangfire1test_ccx:17832:651665d7 successfully announced in 31.2138 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:02:59.876
+#Msg#Server hangfire1test_ccx:17832:651665d7 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:03:00.157
+#Msg#Server hangfire1test_ccx:17832:651665d7 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:21:36.967
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:21:37.020
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:21:37.074
+#Msg#Server hangfire1test_ccx:29840:01a1db5c successfully announced in 31.7377 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:21:37.080
+#Msg#Server hangfire1test_ccx:29840:01a1db5c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:21:37.259
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 15:21:37.421
+#Msg#Server hangfire1test_ccx:29840:01a1db5c all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:19:21.545
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:19:21.595
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:19:21.648
+#Msg#Server hangfire1test_ccx:8100:a71f662f successfully announced in 27.9645 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:19:21.655
+#Msg#Server hangfire1test_ccx:8100:a71f662f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:19:22.037
+#Msg#Server hangfire1test_ccx:8100:a71f662f all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:21:02.695
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:21:02.744
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:21:02.794
+#Msg#Server hangfire1test_ccx:16264:ddbd6829 successfully announced in 26.7775 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:21:02.802
+#Msg#Server hangfire1test_ccx:16264:ddbd6829 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:21:03.061
+#Msg#Server hangfire1test_ccx:16264:ddbd6829 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 16:22:17.442
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：请先设置流程归档流程模板！
+
+> 
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27TM23EN6C:00000006","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27TM23EN6C"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 16:24:06.039
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：非法病历信息,操作失败！
+
+> 
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27TM23EN6C:0000000A","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27TM23EN6C"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:26:02.937
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 16:28:32.605
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：病历状态非待提交状态无法发起归档操作！
+
+> 
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27TM23EN6C:0000000B","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27TM23EN6C"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 16:31:46.307
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：服务器好像出了点问题，请联系系统管理员...
+
+> An error occurred while saving the entity changes. See the inner exception for details.
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27TM23EN6C:0000000C","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27TM23EN6C"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:33:26.075
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:33:26.133
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:33:26.188
+#Msg#Server hangfire1test_ccx:27692:a321524a successfully announced in 28.3468 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:33:26.198
+#Msg#Server hangfire1test_ccx:27692:a321524a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:33:26.470
+#Msg#Server hangfire1test_ccx:27692:a321524a all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:35:12.211
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:35:12.260
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:35:12.310
+#Msg#Server hangfire1test_ccx:31248:bc598e19 successfully announced in 25.2747 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:35:12.320
+#Msg#Server hangfire1test_ccx:31248:bc598e19 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:35:12.623
+#Msg#Server hangfire1test_ccx:31248:bc598e19 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:36:45.501
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:36:45.549
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:36:45.601
+#Msg#Server hangfire1test_ccx:19920:5b035a04 successfully announced in 28.705 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:36:45.611
+#Msg#Server hangfire1test_ccx:19920:5b035a04 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:36:45.968
+#Msg#Server hangfire1test_ccx:19920:5b035a04 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:38:15.077
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:38:15.129
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:38:15.177
+#Msg#Server hangfire1test_ccx:15100:baa8316a successfully announced in 25.9625 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:38:15.184
+#Msg#Server hangfire1test_ccx:15100:baa8316a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:38:15.446
+#Msg#Server hangfire1test_ccx:15100:baa8316a all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:45:50.757
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:45:50.803
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:45:50.852
+#Msg#Server hangfire1test_ccx:3116:ad1a1399 successfully announced in 27.3944 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:45:50.861
+#Msg#Server hangfire1test_ccx:3116:ad1a1399 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:45:51.131
+#Msg#Server hangfire1test_ccx:3116:ad1a1399 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【ERR】2024-03-19 16:46:04.099
+#Msg#> 操作人：
+> 操作地区：127.0.0.1(内网IP;内网IP)
+> 操作模块：病历归档申请
+> 操作地址：/api/Archive/Apply
+> 错误信息：归档【test:1】流程未结束,请勿重复提交申请
+
+> 
+#Pro #{"SourceContext":"Trasen.PaperFree.Host.Middleware.GlobalExceptionMiddleware","RequestId":"0HN27U3TINB7F:00000005","RequestPath":"/api/Archive/Apply","ConnectionId":"0HN27U3TINB7F"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:48:53.541
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:48:53.597
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:48:53.651
+#Msg#Server hangfire1test_ccx:33504:e6f76067 successfully announced in 27.7308 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:48:53.662
+#Msg#Server hangfire1test_ccx:33504:e6f76067 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:48:53.966
+#Msg#Server hangfire1test_ccx:33504:e6f76067 all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 16:53:53.810
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 17:58:11.709
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 17:58:11.768
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 17:58:11.820
+#Msg#Server hangfire1test_ccx:23904:82c0aced successfully announced in 25.8791 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 17:58:11.826
+#Msg#Server hangfire1test_ccx:23904:82c0aced is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 17:58:12.100
+#Msg#Server hangfire1test_ccx:23904:82c0aced all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 18:01:02.334
+#Msg#Starting Hangfire Server using job storage: 'redis://192.168.18.89:6379,password=*****/2'
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 18:01:02.380
+#Msg#Using the following options for Hangfire Server:
+    Worker count: 80
+    Listening queues: 'img-queue', 'log-queue', 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+#Pro #{"SourceContext":"Hangfire.BackgroundJobServer"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 18:01:02.429
+#Msg#Server hangfire1test_ccx:36160:ac5cb5ca successfully announced in 25.6464 ms
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 18:01:02.435
+#Msg#Server hangfire1test_ccx:36160:ac5cb5ca is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, FetchedJobsWatcher, ExpiredJobsWatcher, RedisSubscription, Worker, DelayedJobScheduler, RecurringJobScheduler...
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 18:01:02.695
+#Msg#Server hangfire1test_ccx:36160:ac5cb5ca all the dispatchers started
+#Pro #{"SourceContext":"Hangfire.Server.BackgroundServerProcess"}
+#Exc#--------------------------------------------------
+【INF】2024-03-19 18:06:02.581
+#Msg#1 servers were removed due to timeout
+#Pro #{"SourceContext":"Hangfire.Server.ServerWatchdog"}
+#Exc#--------------------------------------------------

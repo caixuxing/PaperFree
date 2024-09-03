@@ -1,0 +1,31 @@
+LEFT JOIN  查询
+
+            var model = await processDesignRepo.QueryAll()
+                  .GroupJoin(processNodeRepo.QueryAll(), a => a.Id, b => b.ProcessDesignId, (n, m) => new { n,n.Id, n.ProcessName, n.ProcessCode, n.IsEnable,m })
+                  .SelectMany(x => x.m.DefaultIfEmpty(), (n, m) => new { n.Id,n.ProcessCode, n.ProcessName, n.IsEnable, ProcessNodes =new { m.Id,m.NodeName,m.NodeCode,m.ProcessDesignId,m.OderNo} })
+                  .Where(x => x.IsEnable == true && x.ProcessCode == "GD_001")
+                  .ToListAsync();
+            var data = model.GroupBy(x => new { x.Id, x.ProcessCode, x.ProcessName, x.IsEnable }).ToList();
+
+
+
+
+
+
+
+
+
+              IConfiguration configuration = services.BuildServiceProvider().GetRequiredService<IConfiguration>();
+        var redisSetting = configuration.GetSection("RedisConfig").Get<RedisSetting>();
+         Console.Out.WriteLine(redisSetting?.Host);
+
+
+
+
+
+
+
+
+         var enumList = Enum.GetValues(typeof(EventDirectionType)).OfType<EventDirectionType>().ToList();
+
+

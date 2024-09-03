@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Aop\**" />
+    <Compile Remove="Entity\**" />
+    <EmbeddedResource Remove="Aop\**" />
+    <EmbeddedResource Remove="Entity\**" />
+    <None Remove="Aop\**" />
+    <None Remove="Entity\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Entity\Interfances\IHasCreated.cs" />
+    <Compile Include="Entity\Interfances\IHasDeleted.cs" />
+    <Compile Include="Entity\Interfances\IHasModified.cs" />
+    <Compile Include="Entity\Interfances\IHasVersion.cs" />
+    <Compile Include="Entity\Interfances\Interface1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Request\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="IPTools.China" Version="1.6.0" />
+    <PackageReference Include="IPTools.Core" Version="1.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.23" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PdfSharpCore" Version="1.3.63" />
+    <PackageReference Include="PinYinConverterCore" Version="1.0.2" />
+    <PackageReference Include="UAParser" Version="3.1.47" />
+  </ItemGroup>
+
+</Project>
